@@ -1,0 +1,15 @@
+D:\OefeningenC#essentials\OXOX\OXOX\bin\Debug\OXOX.exe.config
+D:\OefeningenC#essentials\OXOX\OXOX\bin\Debug\OXOX.exe
+D:\OefeningenC#essentials\OXOX\OXOX\bin\Debug\OXOX.pdb
+D:\OefeningenC#essentials\OXOX\OXOX\obj\Debug\OXOX.csproj.AssemblyReference.cache
+D:\OefeningenC#essentials\OXOX\OXOX\obj\Debug\MainWindow.g.cs
+D:\OefeningenC#essentials\OXOX\OXOX\obj\Debug\App.g.cs
+D:\OefeningenC#essentials\OXOX\OXOX\obj\Debug\OXOX_MarkupCompile.cache
+D:\OefeningenC#essentials\OXOX\OXOX\obj\Debug\OXOX_MarkupCompile.lref
+D:\OefeningenC#essentials\OXOX\OXOX\obj\Debug\MainWindow.baml
+D:\OefeningenC#essentials\OXOX\OXOX\obj\Debug\OXOX.g.resources
+D:\OefeningenC#essentials\OXOX\OXOX\obj\Debug\OXOX.Properties.Resources.resources
+D:\OefeningenC#essentials\OXOX\OXOX\obj\Debug\OXOX.csproj.GenerateResource.cache
+D:\OefeningenC#essentials\OXOX\OXOX\obj\Debug\OXOX.csproj.CoreCompileInputs.cache
+D:\OefeningenC#essentials\OXOX\OXOX\obj\Debug\OXOX.exe
+D:\OefeningenC#essentials\OXOX\OXOX\obj\Debug\OXOX.pdb

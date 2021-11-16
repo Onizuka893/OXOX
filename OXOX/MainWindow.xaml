@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OXOX"
-        mc:Ignorable="d"
+        mc:Ignorable="d" Loaded="Window_Loaded"
         Title="MainWindow" Height="450" Width="800">
     <DockPanel>
         <Grid  Background="Black"  DockPanel.Dock="Top" Height="25">
@@ -14,32 +14,32 @@
          
         </Grid>
         <Grid DockPanel.Dock="Right" Width="200" >
-            <Label Content="Player2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"></Label>
+            <Label Name="LblPlayer2Naam" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"></Label>
         </Grid>
         <Grid DockPanel.Dock="Left" Width="200" >
-            <Label Content="Player1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"></Label>
+            <Label Name="LblPlayer1Naam" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"></Label>
         </Grid>
 
         <Grid>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition x:Name="Col1" IsEnabled="False" Width="1*"/>
+                <ColumnDefinition x:Name="Col2" Width="1*"/>
+                <ColumnDefinition x:Name="Col3" Width="1*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            <Button></Button>
-            <Button Grid.Column="1" Grid.Row="0"></Button>
-            <Button Grid.Column="2" Grid.Row="0"></Button>
-            <Button Grid.Column="0" Grid.Row="1"></Button>
-            <Button Grid.Row="1" Grid.Column="1"></Button>
-            <Button Grid.Row="1" Grid.Column="2"></Button>
-            <Button Grid.Row="2" Grid.Column="0"></Button>
-            <Button Grid.Row="2" Grid.Column="1"></Button>
-            <Button Grid.Row="2" Grid.Column="2"></Button>
+            <Button Name="Btn00" Content="" FontSize="80" Click="Btn00_Click"></Button>
+            <Button x:Name="Btn01" Content="" FontSize="80" Grid.Column="1" Grid.Row="0" Click="Btn01_Click"></Button>
+            <Button x:Name="Btn02" Content="" FontSize="80" Grid.Column="2" Grid.Row="0" Click="Btn02_Click"></Button>
+            <Button x:Name="Btn10" Content="" FontSize="80" Grid.Column="0" Grid.Row="1" Click="Btn10_Click"></Button>
+            <Button x:Name="Btn11" Content="" FontSize="80" Grid.Row="1" Grid.Column="1" Click="Btn11_Click"></Button>
+            <Button x:Name="Btn12" Content="" FontSize="80" Grid.Row="1" Grid.Column="2" Click="Btn12_Click"></Button>
+            <Button x:Name="Btn20" Content="" FontSize="80" Grid.Row="2" Grid.Column="0" Click="Btn20_Click"></Button>
+            <Button x:Name="Btn21" Content="" FontSize="80" Grid.Row="2" Grid.Column="1" Click="Btn21_Click"></Button>
+            <Button x:Name="Btn22" Content="" FontSize="80" Grid.Row="2" Grid.Column="2" Click="Btn22_Click"></Button>
         </Grid>
     </DockPanel>
         
